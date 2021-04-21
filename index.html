@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.svg" type="image/xml-svg">
+    <title>Eng-Ru Vocabulary</title>
+</head>
+<body>
+    <header class="body__header">
+        <h1 class="h1 header__title">Словарь</h1>
+        <form action="http://vocabulary.std-937.ist.mospolytech.ru/vocabularyPost.php" method="POST">
+            <div class="header__bottom">
+                <div class="input-box">
+                    <input name="word" type="text" class="input wordInput" required placeholder="Слово" autocomplete="off">
+                    <input name="translate" type="text" class="input translateInput" required placeholder="Перевод">
+                </div>
+                <button class="button" type="submit">
+                    <svg width="30" height="21" viewBox="0 0 30 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.77539 12.3225C15.3587 20.411 6.77978 4.23297 26.4421 10.7629" stroke="#6743FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M20.4059 18.7481C24.056 16.7567 37.4398 9.45482 18.9043 1.64282" stroke="#6743FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                </button>
+            </div>
+        </form>
+    </header>
+    <main class="body__main">
+        <ul class="vocabulary">
+        
+        </ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
